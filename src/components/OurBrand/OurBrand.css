@@ -1,0 +1,53 @@
+.tittle{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+.tittle h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.tittle .tittle-description{
+    font-size: 20px;
+    line-height: 26px;
+    color: grey;
+}
+
+.brand-description{
+    color: rgb(226, 226, 226);
+    width: 75%;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.our-brand-content{
+    padding-top: 70px;
+}
+.our-brand-content h3{
+    padding-bottom: 10px;
+}
+.our-brand-content p{
+    line-height: 24px;
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+    
+}
+@media (min-width: 576px) and (max-width: 768px){
+    
+}
+@media (max-width: 575.98px){
+    .our-brand{
+        flex-direction:column-reverse;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .our-brand-2{
+        padding: 0 20px;
+        text-align: center;
+    }
+}

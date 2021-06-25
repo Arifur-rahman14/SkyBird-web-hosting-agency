@@ -1,0 +1,16 @@
+.order-table{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.order-table thead th:last-child{
+    text-align: center;
+}
+.order-table tbody tr td:last-child{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+    background: #ffc107;
+}

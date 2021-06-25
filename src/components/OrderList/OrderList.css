@@ -1,0 +1,31 @@
+.order-list-table thead th:last-child{
+    text-align: center;
+}
+.order-list-table tbody td:last-child{
+    text-align: center;
+}
+.order-list-table tbody td:last-child button{
+    margin: 0 10px;
+}
+
+.status-icon{
+    margin: 0 5px;
+}
+
+
+
+@media (min-width: 769px) and (max-width: 992px){
+    .order-list-table tbody td:last-child button{
+        margin: 10px 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .order-list-table tbody td:last-child button{
+        margin: 10px 10px;
+    }
+}
+@media (max-width: 575.98px){
+    .order-list-table tbody td:last-child button{
+        margin: 10px 10px;
+    }
+}

@@ -1,0 +1,67 @@
+.service-list table{
+    width: 100%;
+}
+.manage-service-table{
+    margin: 0;
+}
+.manage-service-table thead{
+    font-size: 18px;
+    color: #023047;
+    width: 100%;
+    border: none;
+    background: #2391ff;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+.manage-service-table thead th{
+    color: #ffffff;
+    padding: 15px 0;
+}
+.manage-service-table thead tr th:nth-child(1){
+    width: 45%;
+    text-align-last: left;
+    padding-left: 30px;
+}
+.manage-service-table thead tr th:nth-child(2){
+    width: 19%;
+}
+.manage-service-table thead tr th:nth-child(3){
+    text-align: center;
+    width: 20%;
+}
+.manage-service-table tbody{
+    font-size: 18px;
+    font-weight: 700;
+    color: #023e8a;
+}
+.manage-service-table tbody tr td{
+    padding: 15px 0;
+}
+.manage-service-table tbody tr td:nth-child(1){
+    padding: 0 30px;
+}
+.manage-service-table tbody tr td:nth-child(3){
+    text-align: center;
+}
+.manage-service-table tbody tr td button{
+    margin: 0 5px;
+    color: #ffffff;
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .content {
+        height: 45vh !important;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .content {
+        height: 45vh !important;
+    }
+}
+@media (max-width: 575.98px){
+    .content {
+        height: 45vh !important;
+    }
+}

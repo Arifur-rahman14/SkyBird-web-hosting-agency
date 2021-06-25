@@ -1,5 +1,6 @@
 
-#SkyBird Web Hosting Agency Template
+# Author: Arifur Rahman
+
 <ul>
     <li>React Js 💥</li>
     <li>React Router 💥</li>

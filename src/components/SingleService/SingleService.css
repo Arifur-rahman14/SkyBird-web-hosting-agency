@@ -1,0 +1,94 @@
+.service-content {
+    height: 250px;
+    cursor: pointer;
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    overflow: hidden;
+    position: relative;
+}
+.service-content:hover {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.service-content-overlay{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(47, 47, 47, .9);
+    left: -100%;
+    top: 0;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.service-content:hover .service-content-overlay{
+    left: 0;
+}
+
+.content-details{
+    padding: 10px;
+}
+.content-details h3{
+    font-size: 30px;
+    color: #6C63FF;
+    padding-bottom: 15px;
+}
+.content-details p{
+    font-size: 17px;
+    line-height: 26px;
+}
+.content-details h5{
+    color: #ffc107;
+    font-size: 35px;
+}
+
+.service-button {
+    text-decoration: none;
+    white-space: nowrap;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    background-color: #eeb200;
+    text-decoration: none;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    margin-top: 10px;
+}
+
+.service-button:hover {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #6C63FF;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+}

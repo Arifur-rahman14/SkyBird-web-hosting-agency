@@ -1,0 +1,104 @@
+/* Total Services CSS */
+.total-service-bg {
+    background-color: #21D4FD;
+background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+}
+.total-service {
+    text-align: center;
+}
+.total-service-content {
+    padding: 30px 0;
+}
+
+.total-service-content h2 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.total-service-content h5 {
+    font-size: 35px;
+    color: #eeb200;
+}
+
+
+/* About Us Section CSS */
+.about{
+    position: relative;
+    padding-bottom: 20px;
+}
+.about::after{
+    content:"";
+    position: absolute;
+    width: 130px;
+    height: 3px;
+    background:#6C63FF;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    animation: leftRight 2s linear infinite;
+    -webkit-animation: leftRight 2s linear infinite;
+    animation-direction: alternate;
+}
+.about-image {
+    position: relative;
+}
+.about-image img {
+    width: 90%;
+}
+.about-image::before {
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    left: -30px;
+    background-image: linear-gradient(
+        112.7deg,
+        rgba(253, 185, 83, 1) 11.4%,
+        rgba(255, 138, 0, 1) 70.2%
+    );
+    z-index: -1;
+    animation: MoveUpDown 2s linear infinite;
+    -webkit-animation: MoveUpDown 2s linear infinite;
+}
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        bottom: 50%;
+    }
+    50% {
+        bottom: 55%;
+    }
+}
+@keyframes leftRight {
+    0%{
+        width: 0;
+    }
+    50% {
+        width: 65px;
+    }
+    100% {
+        width: 130px;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 992px){
+    
+}
+@media (min-width: 576px) and (max-width: 768px){
+    
+}
+@media (max-width: 575.98px){
+    .about-image{
+        margin-left: 50px;
+    }
+    .about-content{
+        text-align: center;
+    }
+}
